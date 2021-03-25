@@ -1,0 +1,64 @@
+/*selector {
+	property: value;
+}*/
+* {
+	text-align: right;
+}
+body{
+	background-image: url(backgroundimg.jpg);
+	background-size: cover;
+}
+
+h2, p {
+	color: #5B4A91;
+	text-align: center;
+	border: 5px solid rgba(91, 74, 145, 0.5)/*same colour, just trying "rgb" tag...rgba is used for opacity*/;
+	cursor: crosshair;
+}
+h3 p:hover /*element(space)element means the "p" inside "h3"*/	 {
+	text-align: left;
+	color: blue;
+}
+h3+p:hover{
+	text-align:right;
+	color: red;
+}
+
+p {
+	font-family: 'Poiret One', cursive;
+	line-height: 45px;
+	font-style: italic;	
+	font-weight: bold;
+	font-size: 200%
+	
+}
+img{
+	float: left;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext:first-child {
+	border:5px dashed green;
+}
+.active: {
+	color: red;
+}
+
+#div1{
+	background: rgba(0,0,255, 0.2);
+}
+
+#div2{
+	background: rgba(255,0,0,0.2);
+}
+
